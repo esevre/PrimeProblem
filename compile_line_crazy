@@ -1,0 +1,1 @@
+g++-mp-5 -std=c++11 -ftree-vectorize -ftree-vectorizer-verbose=2  -O3 -msse3 -ffast-math -funsafe-loop-optimizations -ftree-loop-if-convert-stores  -fopenmp main.cpp -o main
